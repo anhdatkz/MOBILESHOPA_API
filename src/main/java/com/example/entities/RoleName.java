@@ -1,6 +1,6 @@
 package com.example.entities;
 
 public enum RoleName {
-	KH,
-    NV
+	ROLE_KH,
+    ROLE_NV
 }

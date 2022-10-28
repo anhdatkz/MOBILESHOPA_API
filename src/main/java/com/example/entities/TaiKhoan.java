@@ -19,11 +19,11 @@ public class TaiKhoan {
 	private String password;
 	
 	@OneToOne(mappedBy="taiKhoanKH")
-//	@JsonIgnore
+	@JsonIgnore
 	private KhachHang khachHang;
 	
 	@OneToOne(mappedBy="taiKhoanNV")
-//	@JsonIgnore
+	@JsonIgnore
 	private NhanVien nhanVien;
 	
 	@ManyToOne
